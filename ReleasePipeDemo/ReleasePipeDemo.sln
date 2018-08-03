@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReleasePipeDemoApp", "ReleasePipeDemoApp\ReleasePipeDemoApp.csproj", "{9DE0EB32-1CAF-432B-9125-96C32DA02904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReleasePipeDemoApp.Tests", "ReleasePipeDemoApp.Tests\ReleasePipeDemoApp.Tests.csproj", "{336C09BE-83CA-49C9-A365-1ACE47529911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE0EB32-1CAF-432B-9125-96C32DA02904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE0EB32-1CAF-432B-9125-96C32DA02904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE0EB32-1CAF-432B-9125-96C32DA02904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE0EB32-1CAF-432B-9125-96C32DA02904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336C09BE-83CA-49C9-A365-1ACE47529911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336C09BE-83CA-49C9-A365-1ACE47529911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336C09BE-83CA-49C9-A365-1ACE47529911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336C09BE-83CA-49C9-A365-1ACE47529911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56EF1A54-A713-4C49-A5D7-45CE3E141DA1}
+	EndGlobalSection
+EndGlobal
